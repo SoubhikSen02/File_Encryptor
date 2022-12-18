@@ -6,10 +6,10 @@ Some of the key features of this application is-
 4. Provides option to show a detailed list of previous actions performed by the user
 
 ### Note
-Some features will ask for a password. This is currently hardcoded to be "FileEncDec" wihtout the double quotes.
+Some features will ask for a password. This is currently hardcoded to be ```FileEncDec```.
 
 # How to directly use the app
-Download a release version from the link down below and the steps given-
+Download a release version from the link down below and follow the steps given there-
 
 https://github.com/SoubhikSen02/File_Encryptor/releases
 
@@ -24,7 +24,7 @@ java -version
 If command not recognized is shown for either one of the above, then JDK is not installed.
 
 ## Simple compile and run
-1. Go into src folder and open CMD in this directory
+1. Go into ```src``` folder and open CMD in this directory
 2. Type the following command to compile the source files-
 ```
 javac SoftEngProject/FileEncryptDecrypt/*.java
@@ -34,8 +34,8 @@ javac SoftEngProject/FileEncryptDecrypt/*.java
 java SoftEngProject.FileEncryptDecrypt.Main
 ```
 
-## Compile to JAR
-1. Go into src folder and open CMD in this directory
+## Compile to JAR and run
+1. Go into ```src``` folder and open CMD in this directory
 2. Type the following commands one by one to compile the source to JAR-
 ```
 javac SoftEngProject/FileEncryptDecrypt/*.java
@@ -47,7 +47,7 @@ java -jar FileEncryptor.jar
 ```
 
 ## Compile to .EXE file
-1. Go into src folder and open CMD in this directory
+1. Go into ```src``` folder and open CMD in this directory
 2. Type the following commands one by one to compile the source to JAR first-
 ```
 javac SoftEngProject/FileEncryptDecrypt/*.java
@@ -65,6 +65,6 @@ jar uf FileEncryptor.jar module-info.class
 ```
 jpackage --name FileEncryptor --type "app-image" --module-path "%JAVA_HOME%/jmods";[current folder address] --add-modules FileEncryptor --module FileEncryptor/SoftEngProject.FileEncryptDecrypt.Main --jlink-options --compress=2
 ```
-Make sure to replace [current folder address] part in the above command with the fully qualified address of the current directory in CMD. To get current directory address, type the command "cd" without the double quotes and use it for the replacing needed above.
+Make sure to replace ```[current folder address]``` part in the above command with the fully qualified address of the current directory in CMD. To get current directory address, type the command ```cd``` and use the output given for the replacing needed above.
 
-5. Go into the "FileEncryptor" folder and run "FileEncryptor.exe" to start the app
+5. Go into the ```FileEncryptor``` folder and run ```FileEncryptor.exe``` to start the app
